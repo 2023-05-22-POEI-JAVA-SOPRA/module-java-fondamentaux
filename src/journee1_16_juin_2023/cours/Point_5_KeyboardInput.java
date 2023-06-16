@@ -1,3 +1,5 @@
+package journee1_16_juin_2023.cours;
+
 import java.util.Scanner;
 
 public class Point_5_KeyboardInput {

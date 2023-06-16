@@ -1,3 +1,5 @@
+package journee1_16_juin_2023.cours;
+
 public class Point5_NamingConventions {
     public static void main(String[] args) {
         // snake case/ underscore case

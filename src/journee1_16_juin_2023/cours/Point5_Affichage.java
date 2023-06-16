@@ -1,3 +1,5 @@
+package journee1_16_juin_2023.cours;
+
 public class Point5_Affichage {
     public static void main(String[] args) {
         int age=44;
