@@ -2,7 +2,7 @@ package journee1_16_juin_2023.cours;
 
 import java.util.Scanner;
 
-public class Point7_KeyboardInputAdvanced {
+public class Point_7_KeyboardInputAdvanced {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
 //        System.out.print("Votre nom complet: ");
