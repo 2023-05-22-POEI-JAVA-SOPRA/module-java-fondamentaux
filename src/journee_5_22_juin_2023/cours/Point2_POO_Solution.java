@@ -1,5 +1,6 @@
 package journee_5_22_juin_2023.cours;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Point2_POO_Solution {
@@ -43,11 +44,12 @@ public class Point2_POO_Solution {
         inscriptionThomasLeGrand.pays="France";
 
 
-        Avion boeing737Max=new Avion();
-        boeing737Max.make="Boeing";
-        boeing737Max.model="737 Max";
-        boeing737Max.numberOfSeats=-57;
-        boeing737Max.yearOfMake=3000;
+        Avion boeing737Max=new Avion("Boeing","737 Max",200,2003);
+        System.out.println(boeing737Max.getMake());
+        System.out.println(boeing737Max.getModel());
+        System.out.println(boeing737Max.getNumberOfSeats());
+        System.out.println(boeing737Max.getYearOfMake());
+
     }
 }
 
