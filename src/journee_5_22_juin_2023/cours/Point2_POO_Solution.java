@@ -1,0 +1,60 @@
+package journee_5_22_juin_2023.cours;
+
+import java.util.Scanner;
+
+public class Point2_POO_Solution {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        Rectangle rectangle;
+        rectangle= new Rectangle();
+        System.out.println("rectangle : "+rectangle);
+        rectangle.longueur=500;
+        rectangle.largeur=250;
+        System.out.println(rectangle.calculSurface());
+        System.out.println(rectangle.calculPerimetre());
+
+        Rectangle rectangle2=rectangle;
+        System.out.println("rectangle2 : "+rectangle2);
+
+        Rectangle rectangle3=new Rectangle();
+        System.out.println("rectangle3 : "+rectangle3);
+        rectangle3.longueur=700;
+        rectangle3.largeur=320;
+        System.out.println(rectangle3.calculSurface());
+        System.out.println(rectangle3.calculPerimetre());
+
+
+        Formulaire inscriptionCricriJunior=new Formulaire();
+        inscriptionCricriJunior.age=5;
+        inscriptionCricriJunior.nom="Lisangola";
+        inscriptionCricriJunior.prenom="Cricri";
+        inscriptionCricriJunior.pays="Belgique";
+
+        Formulaire inscriptionAmineLePetit=new Formulaire();
+        inscriptionAmineLePetit.age=4;
+        inscriptionAmineLePetit.nom="Skali";
+        inscriptionAmineLePetit.prenom="Amine Small";
+        inscriptionAmineLePetit.pays="France";
+
+        Formulaire inscriptionThomasLeGrand=new Formulaire();
+        inscriptionThomasLeGrand.age=-6;
+        inscriptionThomasLeGrand.nom="Thomas";
+        inscriptionThomasLeGrand.prenom="Anne";
+        inscriptionThomasLeGrand.pays="France";
+
+
+        Avion boeing737Max=new Avion();
+        boeing737Max.make="Boeing";
+        boeing737Max.model="737 Max";
+        boeing737Max.numberOfSeats=-57;
+        boeing737Max.yearOfMake=3000;
+    }
+}
+
+
+// 1 -> [null]-rectangle
+// 2 ->
+//     // 2.1 -> new Rectangle():0x433
+//     // 2.2 -> [0x433]-rectangle
+// 3. -> [0x433]-rectangle2
+// 4. -> [0x4674]-rectangle2
