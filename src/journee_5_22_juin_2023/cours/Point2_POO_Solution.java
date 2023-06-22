@@ -50,6 +50,8 @@ public class Point2_POO_Solution {
         System.out.println(boeing737Max.getNumberOfSeats());
         System.out.println(boeing737Max.getYearOfMake());
 
+        boeing737Max.setModel("739 Air");
+
     }
 }
 
