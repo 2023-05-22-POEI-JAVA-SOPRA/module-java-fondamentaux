@@ -24,7 +24,7 @@ public class TP1_Tirelire {
         System.out.println("Vous êtes sans le sou.");
     }
 
-    public void remplir(int montant) throws ArithmeticException {
+    public void remplir(int montant) throws IllegalArgumentException {
         if(montant<=0){
             throw new IllegalArgumentException("Seuls les montants positifs sont acceptes");
         }
