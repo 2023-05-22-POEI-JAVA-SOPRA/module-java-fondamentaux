@@ -41,7 +41,7 @@ package journee_5_22_juin_2023.tps;
 //}
 
 
-public class Tp1_RefactoreGradeProgram {
+public class TP1_RefactoreGradeProgram {
     public static void main(String[] args) {
         // Physics
         double[] physicsGrades = {12, 11, 8, 2, 7};

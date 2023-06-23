@@ -52,6 +52,11 @@ public class Point2_POO_Solution {
 
         boeing737Max.setModel("739 Air");
 
+        Browser browser=new Browser();
+
+        String ip =browser.findIpAddress("http://m2iformation.fr");
+        browser.sendHttpRequest(ip);
+
     }
 }
 
