@@ -22,4 +22,8 @@ public class Magicien extends Personnage {
     public String toString() {
         return String.format("Nom : %s\nBaguette : %s",this.getNom(),this.baguetteMagique);
     }
+
+    public void rencontrer(){
+        System.out.println("Bonjour, je suis un magicien");
+    }
 }

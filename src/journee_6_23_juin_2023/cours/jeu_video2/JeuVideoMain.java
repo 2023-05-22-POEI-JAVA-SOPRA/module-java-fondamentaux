@@ -16,6 +16,12 @@ public class JeuVideoMain {
             System.out.println(magicien);
             magicien.rencontrer();
 
+            var voleur=new Voleur("Vo","tito");
+            System.out.println(voleur);
+
+            // Classe abstraite : Erreur
+//            var p=new Personnage("Zozor");
+
         }catch (IllegalArgumentException e){
             System.err.println("Erreur => "+e.getMessage());
         }

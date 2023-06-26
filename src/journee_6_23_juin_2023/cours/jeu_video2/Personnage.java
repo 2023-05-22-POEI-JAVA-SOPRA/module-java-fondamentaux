@@ -1,6 +1,6 @@
 package journee_6_23_juin_2023.cours.jeu_video2;
 
-public class Personnage {
+public abstract class Personnage {
     private String nom;
     private int dureeDeVie;
 
@@ -40,7 +40,5 @@ public class Personnage {
         return nombrePersonnages;
     }
 
-    public void rencontrer(){
-        System.out.println("Bonjour");
-    }
+     public abstract void rencontrer();
 }
