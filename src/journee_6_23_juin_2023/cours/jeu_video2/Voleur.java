@@ -20,5 +20,5 @@ public class Voleur extends Personnage {
     public void rencontrer() {
         System.out.println("Bonjour, je suis un voleur");
     }
-
+    
 }
